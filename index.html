@@ -289,10 +289,23 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
-    <script
-      src="https://notifap-widget.firebaseapp.com/snack-iframe.js"
-      async
-    ></script>
-    <div class="notifapp-root" data-org-id="7DZRSCRAT7yOzP31H4kR"></div>
+    <!-- Start async Notifapp script -->
+    <script>
+      "use strict";
+      (function() {
+        var a = document.createElement("div");
+        (a.className = "notifapp-root"),
+          a.setAttribute("data-org-id", "7DZRSCRAT7yOzP31H4kR"),
+          document.body.appendChild(a);
+        var b = document.createElement("script");
+        (b.type = "text/javascript"),
+          (b.async = !0),
+          (b.crossorigin = "anonymous"),
+          (b.src = "https://docs.notifapp.valuraise.com/embed.js");
+        var a = document.getElementsByTagName("script")[0];
+        a.parentNode.insertBefore("7DZRSCRAT7yOzP31H4kR", a);
+      })();
+    </script>
+    <!-- End async Notifapp script -->
   </body>
 </html>
