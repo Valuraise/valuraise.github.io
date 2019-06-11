@@ -131,11 +131,11 @@ img::-moz-selection {
     background-color: rgba(255, 255, 255, 0.9);
   }
   #mainNav .navbar-brand {
-    color: #f05f40 !important;
+    color: #212529 !important;
   }
   #mainNav .navbar-brand:focus,
   #mainNav .navbar-brand:hover {
-    color: #f05f40 !important;
+    color: #212529 !important;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
