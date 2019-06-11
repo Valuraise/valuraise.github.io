@@ -348,8 +348,7 @@ header.masthead p {
 
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+  border-radius: 0px 0px 20px 20px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -359,9 +358,15 @@ header.masthead p {
 
 /* Add some padding inside the card container */
 .container-card {
-  padding: 16px;
+  padding: 26px;
+  background-color: #212529;
+  border-radius: 0px 0px 20px 20px;
 }
 
 .text-dark {
   color: #212529;
+}
+
+.grey-bkc {
+  background-color: #efefee;
 }
