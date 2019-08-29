@@ -394,6 +394,11 @@ header.masthead1 p {
   text-decoration: underline;
 }
 
+.slogan-white {
+  color: #FFF;
+  text-decoration: underline;
+}
+
 .card {
   /* Add shadows to create the "card" effect */
   border-radius: 0px 0px 20px 20px;
