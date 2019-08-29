@@ -220,7 +220,7 @@ header.masthead p {
 header.masthead1 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header1.jpg");
+  background-image: url("../img/header-bkp.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
